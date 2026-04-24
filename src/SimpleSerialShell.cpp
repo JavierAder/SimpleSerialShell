@@ -93,13 +93,13 @@ SimpleSerialShell::SimpleSerialShell()
 };
 
 //////////////////////////////////////////////////////////////////////////////
-void setMaxArgs(char ma)
+void SimpleSerialShell::setMaxArgs(char ma)
 {
 	maxArgs = ma;
 }
 
 //////////////////////////////////////////////////////////////////////////////
-char getMaxArgs()
+char SimpleSerialShell::getMaxArgs()
 {
 	return maxArgs;
 }
